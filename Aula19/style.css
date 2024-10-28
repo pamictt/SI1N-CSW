@@ -1,0 +1,31 @@
+*
+#titulo {
+    color: blue;
+    text-align: center;
+}
+
+#subtitulo1{
+    color: #71967b;
+    text-align: right;
+}
+
+#subtitulo2 {
+    color: #71967b;
+    text-align: left;
+}
+
+.Titulo-Principal {
+    color: #2e8244;
+    padding: 1rem;
+}
+
+.subtitulo-1 {
+    color: #71967b;
+    text-align: right;
+}
+
+.subtitulo-2 {
+    color: #71967b;
+    text-align: left;
+
+}
