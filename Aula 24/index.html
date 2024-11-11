@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aula 24</title>
+</head>
+<body>
+    
+    <div class="ContentBox">
+    <p>Name</p>
+    <input id="inputName" size="60">
+<br>
+<br>
+    <p>Last name</p>
+    <input id="inputlastName" size="60"> 
+    <br>
+    <button onclick="sendName()"> Enviar </button>
+</div>
+   
+
+    <script type="text/Javascript">
+
+        function sendName() {
+            var name = document.getElementById ('inputName').value
+            var lastname = document.getElementById ('inputlastName').value
+       
+        window.alert('O seu Nome é ' + name + ',' + lastname)       
+        }
+
+            
+    </script>
+        
+</body>
+</html>

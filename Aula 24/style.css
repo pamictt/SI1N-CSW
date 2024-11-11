@@ -1,0 +1,15 @@
+button {
+    color: pink
+    
+}
+
+p {
+    
+   margin: 1rem;
+}
+
+.ContentBox {
+    display: grid;
+    justify-content: center;
+
+}
